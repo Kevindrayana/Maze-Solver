@@ -39,3 +39,30 @@
 .read-the-docs {
   color: #888;
 }
+
+/* undefault css */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  background-color: #2196F3;
+  padding: 5px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 17px;
+  text-align: center;
+}
+
+.start{
+  background-color: green;
+}
+
+.end{
+  background-color: red;
+}
+
+.walls{
+  background-color: black;
+}
