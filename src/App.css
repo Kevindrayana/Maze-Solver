@@ -43,7 +43,7 @@
 /* undefault css */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(25, 1fr);
+  grid-template-columns: repeat(10, 1fr);
   background-color: #2196F3;
   padding: 5px;
 }
@@ -51,8 +51,10 @@
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 17px;
+  padding: 20px;
   text-align: center;
+  font-size: 15px;
+  color: black;
 }
 
 .start{
@@ -65,4 +67,8 @@
 
 .walls{
   background-color: black;
+}
+
+.grey{
+  background-color: grey;
 }
