@@ -43,7 +43,7 @@
 /* undefault css */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(30, 1fr);
   background-color: #2196F3;
   padding: 5px;
 }
@@ -65,7 +65,7 @@
   background-color: red;
 }
 
-.walls{
+.wall{
   background-color: black;
 }
 
@@ -100,4 +100,22 @@
     transform: scale(1);
     background-color: rgba(0, 190, 218, 0.75);
   }
+}
+
+#solve-button{
+  width: 400px;
+  margin: 0.5rem;
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+}
+
+#generate-walls-button{
+  width: 200px;
+  background: linear-gradient(to top left, #720e9e, #33006F);
+  margin: 0.5rem;
+}
+
+#refresh-button{
+  width: 200px;
+  background: linear-gradient(to top left, #3a6186, #333399);
+  margin: 0.5rem;
 }
