@@ -1,7 +1,6 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1 rem;
   text-align: center;
 }
 
@@ -43,18 +42,16 @@
 /* undefault css */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(30, 1fr);
+  grid-template-columns: repeat(50, 1fr);
   background-color: #2196F3;
   padding: 5px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
+  border: 0.2px solid rgba(0, 0, 0, 0.8);
+  padding: 13px;
   text-align: center;
-  font-size: 15px;
-  color: black;
 }
 
 .start{
@@ -103,7 +100,7 @@
 }
 
 #solve-button{
-  width: 400px;
+  width: 300px;
   margin: 0.5rem;
   background: linear-gradient(to top left, #28b487, #7dd56f);
 }

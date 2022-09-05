@@ -5,7 +5,7 @@ export default function generateWalls(row, col){
     }
 
     let randomNums = [];
-    for(let i = 0; i < (row*col*0.25); i ++){
+    for(let i = 0; i < (row*col*0.33); i ++){
         let randomNum = Math.floor(Math.random() * (row * col - 2)) + 1;
             if (!randomNums.includes(randomNum) || randomNum == 1 || randomNum == 500){
                 randomNums.push(randomNum);
